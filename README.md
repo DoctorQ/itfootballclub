@@ -1,4 +1,5 @@
 itfootballclub
 ==============
-http://www.itfootballclub.com官网源码
+http://www.itfootballclub.com
+官网源码
 itfootballclub
