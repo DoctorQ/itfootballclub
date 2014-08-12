@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+<title>ITFootballClub</title>
+<link rel="stylesheet" href="../css/main-stylesheet.css" />
+<script src="../js/jquery.min.js" type="text/javascript"></script>
+<script src="../js/jquery.countdown.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	var date = new Date();
+	var sr = date.getSeconds();
+	var mr = date.getMinutes();
+	var hr = date.getHours();
+	s = 60 - sr;
+	s = s < 10 ? "0" + s : s;
+	if (s != 0) {
+		m = 60 - mr - 1;
+	}
+	m = m < 10 ? "0" + m : m;
+	if (m != 0) {
+		h = 24 - hr - 1;
+	}
+	h = h < 10 ? "0" + h : h;
+	var timevalue = h + ":" + m + ":" + s;
+	$(function() {
+		$('#counter').countdown({
+			image : 'images/digits.png',
+			startTime : timevalue
+		});
+	});
+</script>
+</head>
+
+<body>
+	<header>
+		<hgroup>
+			<h1>爱踢球吧</h1>	
+	<div id="counter"></div>
+		</hgroup>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="desk/club/itfootballclub.html">首页</a></li>
+			<li><a href="../index.jsp">俱乐部</a></li>
+			<li><a href="#">球员</a></li>
+			<li><a href="#">比赛</a></li>
+			<li><a href="#">关于我们</a></li>
+			<li><a href="#">联系我们</a></li>
+		</ul>
+	</nav>
+
+	<article>
+		<header>
+			<h1>一言尽</h1>
+		</header>
+		<p>生命那么短暂,为什么不选择做自己喜欢做的事.</p>
+		<section>
+			<header>
+				<h1></h1>
+			</header>
+			<p>Life is so short, why not do what you like to do.</p>
+			<hr class="line"></hr>
+		</section>
+		<section>
+			<header>
+				<h1>本月人物</h1>
+			</header>
+			<p class="next-to-aside">杰拉德</p>
+			<figure>
+				<img src="../images/gerrard.jpg" alt="Photograph of Stonehenge"
+					width="500" height="300">
+				<figcaption>Steven Gerrard</figcaption>
+			</figure>
+			<hr class="line"></hr>
+		</section>
+		<section>
+			<header>
+				<h1>本月俱乐部</h1>
+			</header>
+			<p class="next-to-aside">利物浦</p>
+			<figure>
+				<img src="../images/liverpool.bmp" alt="Photograph of Stonehenge"
+					width="500" height="300">
+				<figcaption>Liverpool</figcaption>
+			</figure>
+			<hr class="line"></hr>
+		</section>
+	</article>
+	<footer>
+		<p>&copy; 2013 itfootballclub. All rights reserved.</p>
+	</footer>
+</body>
+</html>

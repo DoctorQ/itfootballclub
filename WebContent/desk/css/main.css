@@ -1,0 +1,96 @@
+*{
+	font-family: "微软雅黑";
+}
+
+body {
+	width: 800px;
+	margin: 0em auto;
+}
+
+article > header h1 {
+	font-size: 20px;
+	float: left;
+	margin-left: 25px;
+}
+
+article > header h1 a {
+	text-decoration: none;
+}
+
+article > section header h1 {
+	font-size: 20px;
+	margin-left: 25px;
+}
+
+article p {
+	clear: both;
+	margin-top: 0px;
+	margin-left: 180px;
+}
+
+article p.next-to-aside {
+	width: 500px;
+}
+
+article >  section figure {
+	margin-left: 180px;
+	margin-bottom: 30px;
+}
+
+.scrollbar {
+	background: #808080;
+	border-radius: 4px;
+	border: 2px solid #808080;
+	border-top-color: #666;
+	line-height: 0;
+}
+
+.scrollbar .handle {
+	border-radius: 4px;
+	background: #fff;
+	cursor: pointer;
+	line-height: 0;
+	-webkit-box-shadow: 0 1px 0 #555;
+	-moz-box-shadow: 0 1px 0 #555;
+	-o-box-shadow: 0 1px 0 #555;
+	box-shadow: 0 1px 0 #555;
+}
+
+/* Vertical examples */
+#vertical .slyWrap {
+	margin: 1em 0;
+	width: 470px;
+	float: left;
+}
+
+#vertical .scrollbar {
+	width: 5px;
+}
+
+#vertical .scrollbar .handle {
+	height: 100px;
+	width: 100%;
+}
+
+#vertical .example2 {
+	position: relative;
+}
+
+#vertical .example2 .sly {
+	width: 800px;
+	margin-left: 0px;
+	height: 600px;
+	border: 0px solid #aaa;
+	background: #fff;
+}
+
+#vertical .example2 .sly>div {
+	padding: 1em 1.5em;
+}
+
+#vertical .example2 .scrollbar {
+	position: absolute;
+	top: 0;
+	left: -10px;
+	height: 600px;
+}

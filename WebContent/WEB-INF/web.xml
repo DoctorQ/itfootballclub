@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <display-name>aodci</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+<servlet>
+	<servlet-name>SortServlet</servlet-name>
+	<servlet-class>com.aodci.servlet.SortServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>SortServlet</servlet-name>
+	<url-pattern>/sortServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>goAddSporter</servlet-name>
+	<servlet-class>com.aodci.servlet.GoAddSporterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>goAddSporter</servlet-name>
+	<url-pattern>/goAddSporter</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>addSporter</servlet-name>
+	<servlet-class>com.aodci.servlet.AddSporterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>addSporter</servlet-name>
+	<url-pattern>/addSporter</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>listSporter</servlet-name>
+	<servlet-class>com.aodci.servlet.ListSporterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>listSporter</servlet-name>
+	<url-pattern>/listSporter</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>goSearchSporter</servlet-name>
+	<servlet-class>com.aodci.servlet.GoSearchSporterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>goSearchSporter</servlet-name>
+	<url-pattern>/goSearchSporter</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>searchSporter</servlet-name>
+	<servlet-class>com.aodci.servlet.SearchSporterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>searchSporter</servlet-name>
+	<url-pattern>/searchSporter</url-pattern>
+</servlet-mapping>
+<servlet>
+        <servlet-name>ChainSelect</servlet-name>
+        <servlet-class>com.aodci.servlet.ChainSelectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChainSelect</servlet-name>
+        <url-pattern>/ChainSelect</url-pattern>
+    </servlet-mapping>
+    <servlet>
+	        <servlet-name>uploadServlet</servlet-name>
+	        <servlet-class>com.aodci.servlet.UploadServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>uploadServlet</servlet-name>
+	        <url-pattern>/uploadServlet</url-pattern>
+	    </servlet-mapping>
+	    <servlet>
+	        <servlet-name>deleteSporter</servlet-name>
+	        <servlet-class>com.aodci.servlet.DeleteSporterServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>deleteSporter</servlet-name>
+	        <url-pattern>/deleteSporter</url-pattern>
+	    </servlet-mapping>
+	    <servlet>
+	        <servlet-name>goUpdateSporter</servlet-name>
+	        <servlet-class>com.aodci.servlet.GoUpdateSporterServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>goUpdateSporter</servlet-name>
+	        <url-pattern>/goUpdateSporter</url-pattern>
+	    </servlet-mapping>
+	    <servlet>
+	        <servlet-name>updateSporter</servlet-name>
+	        <servlet-class>com.aodci.servlet.UpdateSporterServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>updateSporter</servlet-name>
+	        <url-pattern>/updateSporter</url-pattern>
+	    </servlet-mapping>
+	    <!-- club -->
+	    <servlet>
+	        <servlet-name>listClub</servlet-name>
+	        <servlet-class>com.aodci.servlet.ListClubServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>listClub</servlet-name>
+	        <url-pattern>/listClub</url-pattern>
+	    </servlet-mapping>
+	    	    <servlet>
+	        <servlet-name>goAddClub</servlet-name>
+	        <servlet-class>com.aodci.servlet.GoAddClubServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>goAddClub</servlet-name>
+	        <url-pattern>/goAddClub</url-pattern>
+	    </servlet-mapping>
+	    <servlet>
+	        <servlet-name>addClub</servlet-name>
+	        <servlet-class>com.aodci.servlet.AddClubServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>addClub</servlet-name>
+	        <url-pattern>/addClub</url-pattern>
+	    </servlet-mapping>
+	    <servlet>
+	        <servlet-name>deleteClub</servlet-name>
+	        <servlet-class>com.aodci.servlet.DeleteClubServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>deleteClub</servlet-name>
+	        <url-pattern>/deleteClub</url-pattern>
+	    </servlet-mapping>
+	    <servlet>
+	        <servlet-name>goUpdateClub</servlet-name>
+	        <servlet-class>com.aodci.servlet.GoUpdateClubServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>goUpdateClub</servlet-name>
+	        <url-pattern>/goUpdateClub</url-pattern>
+	    </servlet-mapping>
+	    <servlet>
+	        <servlet-name>updateClub</servlet-name>
+	        <servlet-class>com.aodci.servlet.UpdateClubServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>updateClub</servlet-name>
+	        <url-pattern>/updateClub</url-pattern>
+	    </servlet-mapping>
+        <!-- gameresult -->  
+  		<servlet>
+	        <servlet-name>goAddGameResult</servlet-name>
+	        <servlet-class>com.aodci.servlet.GoAddGameResultServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>goAddGameResult</servlet-name>
+	        <url-pattern>/goAddGameResult</url-pattern>
+    	</servlet-mapping>
+    	<servlet>
+	        <servlet-name>addGameResult</servlet-name>
+	        <servlet-class>com.aodci.servlet.AddGameResultServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>addGameResult</servlet-name>
+	        <url-pattern>/addGameResult</url-pattern>
+    	</servlet-mapping>
+    	<servlet>
+	        <servlet-name>listGameResult</servlet-name>
+	        <servlet-class>com.aodci.servlet.ListGameResultServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>listGameResult</servlet-name>
+	        <url-pattern>/listGameResult</url-pattern>
+    	</servlet-mapping>
+    	<servlet>
+	        <servlet-name>goUpdateGameResult</servlet-name>
+	        <servlet-class>com.aodci.servlet.GoUpdateGameResultServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>goUpdateGameResult</servlet-name>
+	        <url-pattern>/goUpdateGameResult</url-pattern>
+    	</servlet-mapping>
+    	<servlet>
+	        <servlet-name>updateGameResult</servlet-name>
+	        <servlet-class>com.aodci.servlet.UpdateGameResultServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>updateGameResult</servlet-name>
+	        <url-pattern>/updateGameResult</url-pattern>
+    	</servlet-mapping>
+    	<servlet>
+	        <servlet-name>autoInput</servlet-name>
+	        <servlet-class>com.aodci.servlet.AutoInputServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>autoInput</servlet-name>
+	        <url-pattern>/autoInput</url-pattern>
+    	</servlet-mapping>
+    	<servlet>
+	        <servlet-name>getClubMes</servlet-name>
+	        <servlet-class>com.aodci.servlet.GetClubMesServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>getClubMes</servlet-name>
+	        <url-pattern>/getClubMes</url-pattern>
+    	</servlet-mapping>
+    	<servlet>
+	        <servlet-name>goSporterHome</servlet-name>
+	        <servlet-class>com.aodci.servlet.GetSporterHomeServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>goSporterHome</servlet-name>
+	        <url-pattern>/goSporterHome</url-pattern>
+    	</servlet-mapping>
+    	<servlet>
+	        <servlet-name>goGSHome</servlet-name>
+	        <servlet-class>com.aodci.servlet.GoGSHomeServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>goGSHome</servlet-name>
+	        <url-pattern>/goGSHome</url-pattern>
+    	</servlet-mapping>
+    	<servlet>
+	        <servlet-name>goBoard</servlet-name>
+	        <servlet-class>com.aodci.servlet.GoBoardServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>goBoard</servlet-name>
+	        <url-pattern>/goBoard</url-pattern>
+    	</servlet-mapping>
+    	<servlet>
+	        <servlet-name>goShotBoard</servlet-name>
+	        <servlet-class>com.aodci.servlet.GoShotBoardServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>goShotBoard</servlet-name>
+	        <url-pattern>/goShotBoard</url-pattern>
+    	</servlet-mapping>
+    	
+</web-app>
