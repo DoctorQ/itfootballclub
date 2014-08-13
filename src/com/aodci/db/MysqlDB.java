@@ -13,7 +13,7 @@ import java.sql.SQLException;
 
 public class MysqlDB {
 	private static final String DBDRIVER = "com.mysql.jdbc.Driver";
-	private static final String DBURL = "jdbc:mysql://127.0.0.1:3306/itfootballclub";
+	private static final String DBURL = "jdbc:mysql://127.0.0.1:3306/aodci";
 	private static final String DBUSER = "root";
 	private static final String DBPASSWROD = "root";
 	private static MysqlDB mysqlDB = null;
