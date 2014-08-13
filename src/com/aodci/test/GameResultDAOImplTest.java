@@ -10,11 +10,11 @@ public class GameResultDAOImplTest implements DAOImplTest {
 
 	public static void main(String args[]) {
 		GameResultDAOImplTest grdt = new GameResultDAOImplTest();
-		// grdt.testInsert();
+		//grdt.testInsert();
 		// grdt.testUpdate();
-		// grdt.testGetAll();
+		grdt.testGetAll();
 		//grdt.testGetOne();
-		grdt.testDelete();
+		//grdt.testDelete();
 	}
 
 	@Override

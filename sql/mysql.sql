@@ -96,28 +96,6 @@ alter table a_club add column location varchar(40);
 alter table a_club add constraint uc_cname unique cname;
 */
  
-
-#向积分表中擦人数据
-insert into a_scoreboard values (null,'Manchester United',2,1,2,7,7,6,'images/manchesterunited.png');
-insert into a_scoreboard values (null,'Chelsea',3,1,1,10,6,2,'images/chelsea.png');
-insert into a_scoreboard values (null,'Arsenal',4,1,0,12,11,6,'images/arsenal.png');
-insert into a_scoreboard values (null,'Liverpool',3,1,1,10,5,3,'images/liverpool.png');
-insert into a_scoreboard values (null,'Manchester City',3,1,1,10,12,4,'images/mcfc.png');
-insert into a_scoreboard values (null,'Tottenham Hotspur',4,0,1,12,5,1,'images/tottenhamhotspur.png');
-insert into a_scoreboard values (null,'Aston Villa',2,3,0,6,6,6,'images/avfc.png');
-insert into a_scoreboard values (null,'Everton',2,3,0,9,6,4,'images/everton.png');
-insert into a_scoreboard values (null,'Cardiff City',1,2,2,5,4,4,'images/cardif.png');
-insert into a_scoreboard values (null,'Crystal Palace',1,3,1,4,3,6,'images/crystalpalace.png');
-insert into a_scoreboard values (null,'Fulham',1,3,1,4,3,7,'images/ffc.png');
-insert into a_scoreboard values (null,'Sunderland Association',0,4,1,1,3,11,'images/sunderland.png');
-insert into a_scoreboard values (null,'Southampton',2,1,2,8,3,2,'images/southampton.png');
-insert into a_scoreboard values (null,'Newcastle United',2,2,1,7,5,8,'images/newcastleunited.png');
-insert into a_scoreboard values (null,'West Ham United',1,2,2,5,4,4,'images/westhamunited.png');
-insert into a_scoreboard values (null,'Stoke City',2,2,1,7,4,5,'images/stokecity.png');
-insert into a_scoreboard values (null,'West Bromwich Albion',1,2,2,5,4,4,'images/westbromwich.png');
-insert into a_scoreboard values (null,'Swansea City',2,2,1,7,7,7,'images/swansea.png');
-insert into a_scoreboard values (null,'Norwich City',1,3,1,4,3,6,'images/norwich.png');
-insert into a_scoreboard values (null,'Hull City Association',2,2,1,7,5,7,'images/hullcity.png');
 #给a_club表添加数据
 insert into a_club values (null,'Manchester United','1878-01-01','Old Trafford','David Moyes',null,'images/manchesterunited.png','Manchester City,England');
 insert into a_club values (null,'Chelsea','1905-03-10','Stamford Bridge Stadium','Jose Mario dos Santos Mourinho Felix','Henry Augustus Mears','images/chelsea.png','London,England');
@@ -139,6 +117,28 @@ insert into a_club values (null,'West Bromwich Albion','1878-00-00','The Hawthor
 insert into a_club values (null,'Swansea City','1912-00-00','Liberty Stadium','Michael Laudrup',null,'images/swansea.png','Swansea,Wales');
 insert into a_club values (null,'Norwich City','1902-00-00','Carrow Road','Christopher "Chris" Hughton',null,'images/norwich.png','Norwich City,England');
 insert into a_club values (null,'Hull City Association','1904-00-00','Kingston Communications Stadium','Bruce',null,'images/hullcity.png','Hull City,England');
+#向积分表中擦人数据
+insert into a_scoreboard values (null,'Manchester United',2,1,2,7,7,6,'images/manchesterunited.png');
+insert into a_scoreboard values (null,'Chelsea',3,1,1,10,6,2,'images/chelsea.png');
+insert into a_scoreboard values (null,'Arsenal',4,1,0,12,11,6,'images/arsenal.png');
+insert into a_scoreboard values (null,'Liverpool',3,1,1,10,5,3,'images/liverpool.png');
+insert into a_scoreboard values (null,'Manchester City',3,1,1,10,12,4,'images/mcfc.png');
+insert into a_scoreboard values (null,'Tottenham Hotspur',4,0,1,12,5,1,'images/tottenhamhotspur.png');
+insert into a_scoreboard values (null,'Aston Villa',2,3,0,6,6,6,'images/avfc.png');
+insert into a_scoreboard values (null,'Everton',2,3,0,9,6,4,'images/everton.png');
+insert into a_scoreboard values (null,'Cardiff City',1,2,2,5,4,4,'images/cardif.png');
+insert into a_scoreboard values (null,'Crystal Palace',1,3,1,4,3,6,'images/crystalpalace.png');
+insert into a_scoreboard values (null,'Fulham',1,3,1,4,3,7,'images/ffc.png');
+insert into a_scoreboard values (null,'Sunderland Association',0,4,1,1,3,11,'images/sunderland.png');
+insert into a_scoreboard values (null,'Southampton',2,1,2,8,3,2,'images/southampton.png');
+insert into a_scoreboard values (null,'Newcastle United',2,2,1,7,5,8,'images/newcastleunited.png');
+insert into a_scoreboard values (null,'West Ham United',1,2,2,5,4,4,'images/westhamunited.png');
+insert into a_scoreboard values (null,'Stoke City',2,2,1,7,4,5,'images/stokecity.png');
+insert into a_scoreboard values (null,'West Bromwich Albion',1,2,2,5,4,4,'images/westbromwich.png');
+insert into a_scoreboard values (null,'Swansea City',2,2,1,7,7,7,'images/swansea.png');
+insert into a_scoreboard values (null,'Norwich City',1,3,1,4,3,6,'images/norwich.png');
+insert into a_scoreboard values (null,'Hull City Association',2,2,1,7,5,7,'images/hullcity.png');
+
 #更新字符集
 #ALTER DATABASE `aodci` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 #show variables like "%char%";

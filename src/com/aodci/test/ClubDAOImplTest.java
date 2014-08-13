@@ -13,11 +13,11 @@ public class ClubDAOImplTest implements DAOImplTest{
 	 */
 	public static void main(String[] args) {
 		ClubDAOImplTest tt = new ClubDAOImplTest();
-		//tt.testGetAll();
+		tt.testGetAll();
 		//tt.testGetOne();
 		//tt.testDelete();
 		//tt.testUpdate();
-		tt.testInsert();
+		//tt.testInsert();
 	}
 
 	@Override

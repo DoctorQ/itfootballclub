@@ -15,7 +15,7 @@ public class MysqlDB {
 	private static final String DBDRIVER = "com.mysql.jdbc.Driver";
 	private static final String DBURL = "jdbc:mysql://127.0.0.1:3306/aodci";
 	private static final String DBUSER = "root";
-	private static final String DBPASSWROD = "root";
+	private static final String DBPASSWROD = "";
 	private static MysqlDB mysqlDB = null;
 	Connection conn = null;
 	/*
@@ -74,5 +74,6 @@ public class MysqlDB {
 			e.printStackTrace();
 		}
 	}
+	
 
 }
