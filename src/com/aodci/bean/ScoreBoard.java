@@ -1,6 +1,13 @@
 package com.aodci.bean;
 
-public class ScoreBoard {
+import java.io.Serializable;
+
+public class ScoreBoard implements Serializable{
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7632785585987559527L;
 	private int id;
 	private String name;
 	private int win;

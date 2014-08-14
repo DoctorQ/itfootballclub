@@ -55,13 +55,13 @@
 				</div>
 
 				<div class="sly"
-					data-options='{"itemNav": "smart", "dragContent": 1, "startAt": 10, "scrollBy": 1, "elasticBounds": 1}'>
+					data-options='{"startAt": 1, "scrollBy": 1}'>
 					<div>
 						<div class="container">
 							<section>
 								<header>
 								<span class="clubname"><%=club.getcName() %>
-								<img src="<%=basePath+"upload/images/"+club.getImgurl() %>" class="clubimg"/></span>
+								<img src="<%=basePath+club.getImgurl() %>" class="clubimg"/></span>
 								<table><tr>
 								<td>创建时间</td><td><%=club.getcTime() %></td></tr>
 								<tr><td>球队主场</td><td><%=club.getHomeField() %></td></tr>

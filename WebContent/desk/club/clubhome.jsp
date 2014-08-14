@@ -55,7 +55,7 @@
 				</div>
 
 				<div class="sly"
-					data-options='{ "itemNav": "smart", "dragContent": 1, "startAt": 10, "scrollBy": 1, "elasticBounds": 1}'>
+					data-options='{ "startAt": 1, "scrollBy": 1}'>
 					<div>
 						<div class="container">
 							<section>
@@ -65,7 +65,7 @@
 															ScoreBoard sb = list.get(i);
 									%>
 									<li><a href="<%=basePath+"getClubMes?clubname="+sb.getName()%>"><img
-											src="<%=basePath+"images/"+sb.getImageUrl()%>" />
+											src="<%=basePath+sb.getImageUrl()%>" />
 											<div>
 												<span><table>
 														<tr>
