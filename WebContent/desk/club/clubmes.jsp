@@ -14,20 +14,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>俱乐部详细信息</title>
 <link rel="shortcut icon" href="../favicon.ico">
-<link
-	href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400italic'
-	rel='stylesheet' type='text/css' />
 <link rel="stylesheet" type="text/css"
 	href="<%=basePath%>desk/css/demo.css" />
 <link rel="stylesheet" type="text/css"
 	href="<%=basePath%>desk/css/style.css" />
 <link rel="stylesheet" href="<%=basePath%>desk/css/main-stylesheet.css" />
-<link href='http://fonts.googleapis.com/css?family=Exo:700'
-	rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="<%=basePath%>desk/css/stylesly.css">
 <link rel="stylesheet" href="<%=basePath %>desk/css/clubmes.css">
-<script type="text/javascript"
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script>
 		window.jQuery
 				|| document
