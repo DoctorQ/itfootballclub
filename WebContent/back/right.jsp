@@ -36,21 +36,21 @@ body {
         <td valign="top">&nbsp;</td>
       </tr>
       <tr>
-        <td colspan="2" valign="top"><span class="left_bt">感谢您使用 发电权交易平台 网站管理系统程序</span><br>
+        <td colspan="2" valign="top"><span class="left_bt"></span><br>
               <br>
-            <span class="left_txt">&nbsp;<img src="images/ts.gif" width="16" height="16"> 提示：<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您现在使用的是天津易时代科技有限公司开发的一套用于国家电网发电权交易的网上平台！如果您有任何疑问请点左下解的</span><span class="left_ts">在线客服</span><span class="left_txt">进行咨询！<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;五大栏目完美整合，一站通使用方式，功能强大，操作简单，后台操作易如反掌，只需会打字，会上网，就会管理网站！<br>
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此程序是您进行发电权交易的首选方案！　 <br>
+            <span class="left_txt">&nbsp;<img src="images/ts.gif" width="16" height="16"> <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="left_ts"></span><span class="left_txt"><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
 </span></td>
         <td width="7%">&nbsp;</td>
         <td width="40%" valign="top"><table width="100%" height="144" border="0" cellpadding="0" cellspacing="0" class="line_table">
           <tr>
             <td width="7%" height="27" background="images/news-title-bg.gif"><img src="images/news-title-bg.gif" width="2" height="27"></td>
-            <td width="93%" background="images/news-title-bg.gif" class="left_bt2">最新动态</td>
+            <td width="93%" background="images/news-title-bg.gif" class="left_bt2"></td>
           </tr>
           <tr>
-            <td height="102" valign="top">&nbsp;A</td>
+            <td height="102" valign="top">&nbsp;</td>
             <td height="102" valign="top"></td>
           </tr>
           <tr>
@@ -83,7 +83,7 @@ mainTable.tBodies[n].style.display="block";
                     <TD align="center" class=sec2 onclick=secBoard(0)>验证信息</TD>
                     <TD align="center" class=sec1 onclick=secBoard(1)>统计信息</TD>
                     <TD align="center" class=sec1 onclick=secBoard(2)>系统参数</TD>
-                    <TD align="center" class=sec1 onclick=secBoard(3)>版权说明</TD>
+                    <TD align="center" class=sec1 onclick=secBoard(3)></TD>
                   </TR>
                 </TBODY>
               </TABLE>
@@ -278,10 +278,7 @@ cellPadding=0 width=100% border=0>
             <td height="102" valign="top">&nbsp;</td>
             <td height="102" valign="top"><label></label>
               <label>
-              <textarea name="textarea" cols="48" rows="8" class="left_txt">一、计量点以《购售电合同》中确定的上网电量结算关口计量点为准。
-二、交易中心根据发电权交易协议确定的电量，与出让方进行电费结算；电网发生阻塞和异常造成替代交易的结果无法按时完成时，根据核减后的交易电量与出让方进行电费结算。
-三、发电权交易电量结算优先于《购售电合同》约定的合同电量结算。
-四、发电权交易电费采用月清月结的方式进行结算、差错电费按照年度清算的有关规定进行。如果国家调整电价，应对电价调整前的交易电费进行阶段清算。</textarea>
+              <textarea name="textarea" cols="48" rows="8" class="left_txt"></textarea>
               </label></td>
           </tr>
           <tr>
@@ -298,8 +295,8 @@ cellPadding=0 width=100% border=0>
       </tr>
       <tr>
         <td width="2%">&nbsp;</td>
-        <td width="51%" class="left_txt"><img src="images/icon-mail2.gif" width="16" height="11"> 客户服务邮箱：15122554931@qq.com<br>
-              <img src="images/icon-phone.gif" width="17" height="14"> 官方网站：http://www.hao123.com</td>
+        <td width="51%" class="left_txt"><img src="images/icon-mail2.gif" width="16" height="11"><br>
+              <img src="images/icon-phone.gif" width="17" height="14"> </td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
