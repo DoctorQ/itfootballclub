@@ -65,7 +65,7 @@
 															ScoreBoard sb = list.get(i);
 									%>
 									<li><a href="<%=basePath+"getClubMes?clubname="+sb.getName()%>"><img
-											src="<%=basePath+"upload/images/"+sb.getImageUrl()%>" />
+											src="<%=basePath+"images/"+sb.getImageUrl()%>" />
 											<div>
 												<span><table>
 														<tr>
@@ -112,60 +112,5 @@
 
 		});
 	</script>
-	<!-- end scripts -->
-	<%-- 	<div class="container">
-		<header class="clearfix"> </header>
-		<section>
-			<ul id="da-thumbs" class="da-thumbs">
-				<%
-					for(int i = 0;i<list.size();i++){
-								ScoreBoard sb = list.get(i);
-				%>
-				<li><a href="<%=basePath+"getClubMes?id="+sb.getId()%>"><img
-						src="<%=basePath+"upload/images/"+sb.getImageUrl()%>" />
-						<div>
-							<span><table>
-									<tr>
-										<td class="clubname"><%=sb.getName()%></td>
-										<td>|</td>
-										<td><%=sb.getWin() %></td>
-										<td>|</td>
-										<td><%=sb.getTie() %></td>
-										<td>|</td>
-										<td><%=sb.getFaith() %></td>
-										<td>|</td>
-										<td><%=sb.getGain() %></td>
-										<td>|</td>
-										<td><%=sb.getLose() %></td>
-										<td>|</td>
-										<td><%=sb.getGain()-sb.getLose() %></td>
-										<td>|</td>
-										<td><%=sb.getScore() %></td>
-										<td>|</td>
-										<td><%=i +1%></td>
-									</tr>
-								</table>
-							</span>
-						</div> </a></li>
-				<%
-					}
-				%>
-			</ul>
-		</section>
-	</div>
-	<footer>
-		<p>&copy; 2013 itfootballclub. All rights reserved.</p>
-	</footer>
-	<script type="text/javascript">
-		$(function() {
-
-			$(' #da-thumbs > li ').each(function() {
-				$(this).hoverdir();
-			});
-
-		});
-	</script>
- --%>
-
 </body>
 </html>
