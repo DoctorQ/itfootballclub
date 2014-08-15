@@ -10,9 +10,9 @@
 <head>
 <title>top</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="css/main-stylesheet1.css" />
-<script src="js/jquery.min.js" type="text/javascript"></script>
-<script src="js/jquery.countdown.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="<%=basePath%>css/desk/main-stylesheet1.css" />
+<script src="<%=basePath%>js/jquery.min.js" type="text/javascript"></script>
+<script src="<%=basePath%>js/jquery.countdown.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
 	var date = new Date();
 	var sr = date.getSeconds();
