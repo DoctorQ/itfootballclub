@@ -15,12 +15,12 @@
 <title>俱乐部详细信息</title>
 <link rel="shortcut icon" href="../favicon.ico">
 <link rel="stylesheet" type="text/css"
-	href="<%=basePath%>desk/css/demo.css" />
+	href="<%=basePath%>css/desk/demo.css" />
 <link rel="stylesheet" type="text/css"
-	href="<%=basePath%>desk/css/style.css" />
-<link rel="stylesheet" href="<%=basePath%>desk/css/main-stylesheet.css" />
-<link rel="stylesheet" href="<%=basePath%>desk/css/stylesly.css">
-<link rel="stylesheet" href="<%=basePath %>desk/css/clubmes.css">
+	href="<%=basePath%>css/desk/style.css" />
+<link rel="stylesheet" href="<%=basePath%>css/desk/main-stylesheet.css" />
+<link rel="stylesheet" href="<%=basePath%>css/desk/stylesly.css">
+<link rel="stylesheet" href="<%=basePath %>css/desk/clubmes.css">
 	<script>
 		window.jQuery
 				|| document
@@ -30,13 +30,8 @@
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
 <script type="text/javascript"
-	src="<%=basePath%>desk/js/jquery.hoverdir.js"></script>
-<script src="<%=basePath%>desk/js/modernizr.custom.97074.js"></script>
-
-<noscript>
-	<link rel="stylesheet" type="text/css"
-		href="<%=basePath%>css/noJS.css" />
-</noscript>
+	src="<%=basePath%>js/jquery.hoverdir.js"></script>
+<script src="<%=basePath%>js/modernizr.custom.97074.js"></script>
 
 </head>
 <body>

@@ -31,7 +31,7 @@
 	var timevalue = h + ":" + m + ":" + s;
 	$(function() {
 		$('#counter').countdown({
-			image : 'images/digits.png',
+			image : '../images/digits.png',
 			startTime : timevalue
 		});
 	});
@@ -46,7 +46,7 @@
 	</header>
 	<nav>
 		<ul>
-			<li><a href="<%=basePath%>desk/demo.jsp" target="middleFrame">首页</a></li>
+			<li><a href="<%=basePath%>desk/context.jsp" target="middleFrame">首页</a></li>
 			<li><a href="<%=basePath%>sortServlet" target="middleFrame">俱乐部</a></li>
 			<li><a href="<%=basePath%>goSporterHome" target="middleFrame">球员</a></li>
 			<li><a href="<%=basePath%>goGSHome" target="middleFrame">比赛</a></li>

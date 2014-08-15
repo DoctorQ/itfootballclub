@@ -13,24 +13,29 @@
 <head>
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>球员详细信息</title>
-<link rel="shortcut icon" href="../favicon.ico">
+<title>积分榜</title>
 <link rel="stylesheet" type="text/css"
-	href="<%=basePath%>desk/css/demo.css" />
+	href="<%=basePath%>css/desk/demo.css" />
 <link rel="stylesheet" type="text/css"
-	href="<%=basePath%>desk/css/style.css" />
-<link rel="stylesheet" href="<%=basePath%>desk/css/main-stylesheet.css" />
-<link rel="stylesheet" href="<%=basePath%>desk/css/stylesly.css">
-<link rel="stylesheet" href="<%=basePath%>desk/css/sportermes.css">
+	href="<%=basePath%>css/desk/style.css" />
+<link rel="stylesheet" href="<%=basePath%>css/desk/main-stylesheet.css" />
+<link rel="stylesheet" href="<%=basePath%>css/desk/stylesly.css">
+<link rel="stylesheet" href="<%=basePath%>css/desk/sportermes.css">
+<script>
+	window.jQuery
+			|| document
+					.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
+</script>
+
 <script src="js/jquery.sly.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <script type="text/javascript"
-	src="<%=basePath%>desk/js/jquery.hoverdir.js"></script>
-<script src="<%=basePath%>desk/js/modernizr.custom.97074.js"></script>
-<script src="<%=basePath%>desk/js/jquery.heatcolor.0.0.1.js"
+	src="<%=basePath%>js/jquery.hoverdir.js"></script>
+<script src="<%=basePath%>s/modernizr.custom.97074.js"></script>
+<script src="<%=basePath%>js/jquery.heatcolor.0.0.1.js"
 	type="text/javascript"></script>
-<script src="<%=basePath%>desk/js/jquery.tablesorter.pack.js"
+<script src="<%=basePath%>js/jquery.tablesorter.pack.js"
 	type="text/javascript"></script>
 <script type="text/javascript">
 $(function(){
@@ -59,8 +64,7 @@ $(function(){
 					<div class="handle"></div>
 				</div>
 
-				<div class="sly"
-					data-options='{ "itemNav": "smart", "dragContent": 1, "startAt": 10, "scrollBy": 1, "elasticBounds": 1}'>
+				<div class="sly" data-options='{ "startAt": 1, "scrollBy": 1}'>
 					<div>
 						<div><h2>积分榜</h2>
 						<table width="770" cellspacing="1" cellpadding="2" border="0" align="center"

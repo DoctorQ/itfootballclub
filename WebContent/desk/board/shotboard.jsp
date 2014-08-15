@@ -16,22 +16,22 @@
 <link rel="shortcut icon" href="../favicon.ico">
 
 <link rel="stylesheet" type="text/css"
-	href="<%=basePath%>desk/css/demo.css" />
+	href="<%=basePath%>css/desk/demo.css" />
 <link rel="stylesheet" type="text/css"
-	href="<%=basePath%>desk/css/style.css" />
-<link rel="stylesheet" href="<%=basePath%>desk/css/main-stylesheet.css" />
+	href="<%=basePath%>css/desk/style.css" />
+<link rel="stylesheet" href="<%=basePath%>css/desk/main-stylesheet.css" />
 
-<link rel="stylesheet" href="<%=basePath%>desk/css/stylesly.css">
-<link rel="stylesheet" href="<%=basePath%>desk/css/sportermes.css">
+<link rel="stylesheet" href="<%=basePath%>css/desk/stylesly.css">
+<link rel="stylesheet" href="<%=basePath%>css/desk/sportermes.css">
 <script src="js/jquery.sly.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <script type="text/javascript"
-	src="<%=basePath%>desk/js/jquery.hoverdir.js"></script>
-<script src="<%=basePath%>desk/js/modernizr.custom.97074.js"></script>
-<script src="<%=basePath%>desk/js/jquery.heatcolor.0.0.1.js"
+	src="<%=basePath%>js/jquery.hoverdir.js"></script>
+<script src="<%=basePath%>js/modernizr.custom.97074.js"></script>
+<script src="<%=basePath%>js/jquery.heatcolor.0.0.1.js"
 	type="text/javascript"></script>
-<script src="<%=basePath%>desk/js/jquery.tablesorter.pack.js"
+<script src="<%=basePath%>js/jquery.tablesorter.pack.js"
 	type="text/javascript"></script>
 <script type="text/javascript">
 $(function(){
@@ -60,8 +60,7 @@ $(function(){
 					<div class="handle"></div>
 				</div>
 
-				<div class="sly"
-					data-options='{ "itemNav": "smart", "dragContent": 1, "startAt": 10, "scrollBy": 1, "elasticBounds": 1}'>
+				<div class="sly" data-options='{ "startAt": 1, "scrollBy": 1}'>
 					<div>
 						<div>
 						<h2>射手榜</h2>

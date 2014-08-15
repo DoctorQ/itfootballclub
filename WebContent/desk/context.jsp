@@ -1,17 +1,17 @@
 <!doctype html>
 <%@page language="java"
 	contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+	<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
+%>
 <html>
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sly - jQuery plugin</title>
+<title>Home</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="description"
-	content="jQuery plugin for one-directional scrolling with item based navigation support.">
+	content="football,itfootball,programmer.">
 <meta name="viewport" content="width=device-width">
-<!-- <link href='http://fonts.googleapis.com/css?family=Exo:700'
-	rel='stylesheet' type='text/css'>
-	 -->
 <link rel="stylesheet" href="css/main.css">
 </head>
 <body id="top">
@@ -42,7 +42,7 @@
 									</header>
 									<p class="next-to-aside">杰拉德</p>
 									<figure>
-										<img src="images/gerrard.jpg" alt="Photograph of Stonehenge"
+										<img src="../images/home/gerrard.jpg" alt="Photograph of Stonehenge"
 											width="500" height="300">
 										<figcaption>Steven Gerrard</figcaption>
 									</figure>
@@ -54,7 +54,7 @@
 									</header>
 									<p class="next-to-aside">利物浦</p>
 									<figure>
-										<img src="images/liverpool.bmp" alt="Photograph of Stonehenge"
+										<img src="../images/home/liverpool.bmp" alt="Photograph of Stonehenge"
 											width="500" height="300">
 										<figcaption>Liverpool</figcaption>
 									</figure>
@@ -63,26 +63,15 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
-			<!--end:#vertical-->
 		</div>
-		<!--end:#sections-->
-	<!--end:#content-->
-
-	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-	<script
-		src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script>
 		window.jQuery
 				|| document
 						.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
 	</script>
-
-	<!-- scripts -->
 	<script src="js/jquery.sly.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
-	<!-- end scripts -->
 </body>
 </html>

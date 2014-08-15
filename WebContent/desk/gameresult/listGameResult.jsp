@@ -6,15 +6,14 @@
 	String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
 	List<GameResult> list = (List<GameResult>)request.getAttribute("list");
 %>
-
-<link href="<%=basePath%>back/images/skin.css" rel="stylesheet"
+<title>比赛结果列表</title>
+<link href="<%=basePath%>css/back/skin.css" rel="stylesheet"
 	type="text/css" />
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<%-- <link type="text/css" rel="stylesheet"
-	href="<%=basePath%>back/css/editTable.css" /> --%>
-<script type="text/javascript" src="<%=basePath%>back/js/jquery-1.4.js"></script>
-<script type="text/javascript" src="<%=basePath%>desk/js/listgameresult.js"></script>
-<script type="text/javascript" src="<%=basePath%>desk/js/editTable.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="<%=basePath%>js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="<%=basePath%>js/desk/listgameresult.js"></script>
+<script type="text/javascript" src="<%=basePath%>js/desk/editTable.js"></script>
 <style type="text/css">
 
 body {
