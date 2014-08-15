@@ -1,0 +1,32 @@
+body {
+	font-family: "微软雅黑";
+	width:800px;
+	margin: 0em auto;
+}
+
+.loading{
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	visibility:hidden;
+}
+.loading p {
+	text-align:center;
+}
+p{
+	margin:0;
+}
+select {
+	background: #ccc;   
+    padding: 5px;   
+    font-size: 16px;   
+    border: 1px solid #ccc;   
+    height: 34px;   
+    -webkit-appearance: none;
+}
+.carimage{
+	text-align:center;
+}
+.cartype,.wheeltype,.car img,.carloading,.carimg{
+	display:none;
+}
