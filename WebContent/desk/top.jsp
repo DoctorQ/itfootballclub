@@ -31,7 +31,7 @@
 	var timevalue = h + ":" + m + ":" + s;
 	$(function() {
 		$('#counter').countdown({
-			image : '../images/digits.png',
+			image : '../images/desk/home/digits.png',
 			startTime : timevalue
 		});
 	});

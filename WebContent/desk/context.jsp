@@ -42,7 +42,7 @@
 									</header>
 									<p class="next-to-aside">杰拉德</p>
 									<figure>
-										<img src="../images/home/gerrard.jpg" alt="Photograph of Stonehenge"
+										<img src="../images/desk/home/gerrard.jpg" alt="Photograph of Stonehenge"
 											width="500" height="300">
 										<figcaption>Steven Gerrard</figcaption>
 									</figure>
@@ -54,7 +54,7 @@
 									</header>
 									<p class="next-to-aside">利物浦</p>
 									<figure>
-										<img src="../images/home/liverpool.bmp" alt="Photograph of Stonehenge"
+										<img src="../images/desk/home/liverpool.bmp" alt="Photograph of Stonehenge"
 											width="500" height="300">
 										<figcaption>Liverpool</figcaption>
 									</figure>

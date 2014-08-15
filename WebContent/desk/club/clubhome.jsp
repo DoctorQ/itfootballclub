@@ -12,7 +12,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>英超俱乐部</title>
+<title>英超俱乐部首页</title>
 <link rel="shortcut icon" href="../favicon.ico">
 <link rel="stylesheet" type="text/css"
 	href="<%=basePath%>css/desk/demo.css" />
