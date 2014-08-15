@@ -24,7 +24,7 @@
 		{
 			float:right;
 			height:360px;
-			background:url('../image/preloader.gif') center center no-repeat;
+			background:url('../../images/aboutus/preloader.gif') center center no-repeat;
 		}
 		
 		#slider
@@ -56,7 +56,7 @@
 				display:inline-block;
 				background-repeat:no-repeat;
 				background-position:0px 0px;
-				background-image:url('../image/slider_navigation.png');
+				background-image:url('../../images/aboutus/slider_navigation.png');
 			}
 			
 			#slider div.nivo-controlNav a.nivo-control:first-child
@@ -91,12 +91,12 @@
 						
 				div.blue ul.social-list li.social-list-facebook 
 				{
-					background-image:url('../image/about_icon_facebook.png');
+					background-image:url('../../images/aboutus/about_icon_facebook.png');
 				}
 				
 				div.blue ul.social-list li.social-list-twitter 
 				{
-					background-image:url('../image/about_icon_twitter.png');
+					background-image:url('../../images/aboutus/about_icon_twitter.png');
 				}		
 			
 					div.blue ul.social-list li a,
@@ -223,7 +223,7 @@
 						margin-left:3px;
 						background-repeat:no-repeat;
 						background-position:0px -16px;
-						background-image:url('../image/skill_icon.png');
+						background-image:url('../../images/aboutus/skill_icon.png');
 					}
 					
 					div.yellow ul.skill-list li div.skill-list-item-level span:first-child
@@ -271,9 +271,9 @@
 				background-position:center left;
 			}
 			
-			div.orange ul.contact-list li.contact-list-fax 		{ background-image:url('../image/contact_icon_fax.png'); 	}
-			div.orange ul.contact-list li.contact-list-mail  	{ background-image:url('../image/contact_icon_mail.png'); 	}
-			div.orange ul.contact-list li.contact-list-phone  	{ background-image:url('../image/contact_icon_phone.png'); 	}
+			div.orange ul.contact-list li.contact-list-fax 		{ background-image:url('../../images/aboutus/contact_icon_fax.png'); 	}
+			div.orange ul.contact-list li.contact-list-mail  	{ background-image:url('../../images/aboutus/contact_icon_mail.png'); 	}
+			div.orange ul.contact-list li.contact-list-phone  	{ background-image:url('../../images/aboutus/contact_icon_phone.png'); 	}
 		
 				div.orange ul.contact-list li span
 				{

@@ -14,14 +14,7 @@
 <meta name="description" content="football,itfootball,programmer.">
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="<%=basePath%>css/desk/main.css">
-<script>
-		window.jQuery
-				|| document
-						.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
-	</script>
-<script src="<%=basePath%>js/jquery.sly.js"></script>
-<script src="<%=basePath%>js/plugins.js"></script>
-<script src="<%=basePath%>js/main.js"></script>
+
 </head>
 <body id="top">
 
@@ -37,7 +30,7 @@
 							<header>
 								<h1>一日言</h1>
 							</header>
-							<p>生命那么短暂,为什么不选择做自己喜欢做的事.</p>
+							<p>生命那么短暂,为什么不选择做自己喜欢做的事.123</p>
 							<section>
 								<header>
 									<h1></h1>
@@ -74,6 +67,13 @@
 			</div>
 		</div>
 	</div>
-
+	<script>
+		window.jQuery
+				|| document
+						.write('<script src="../js/jquery-1.7.2.min.js"><\/script>')
+	</script>
+	<script src="<%=basePath%>js/jquery.sly.js"></script>
+	<script src="<%=basePath%>js/plugins.js"></script>
+	<script src="<%=basePath%>js/main.js"></script>
 </body>
 </html>
