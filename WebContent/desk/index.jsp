@@ -21,7 +21,7 @@
 <frameset rows="15%,80%,5%" frameborder="NO" border="0" framespacing="0">
 	<frame src="<%=basePath%>desk/top.jsp" name="topFrame" scrolling="no"
 		marginheight="0" target="middleFrame" />
-	<frame src="<%=basePath%>desk/demo.jsp" name="middleFrame"
+	<frame src="<%=basePath%>desk/context.jsp" name="middleFrame"
 		scrolling="no" target="_self" />
 	<frame src="<%=basePath%>desk/footer.html" name="bottomFrame"
 		scrolling="no" />
