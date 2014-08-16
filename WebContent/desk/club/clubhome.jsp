@@ -12,7 +12,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>英超俱乐部首页</title>
+<title>英超俱乐部</title>
 <link rel="shortcut icon" href="../favicon.ico">
 <link rel="stylesheet" type="text/css"
 	href="<%=basePath%>css/desk/demo.css" />
@@ -25,14 +25,17 @@
 				|| document
 						.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
 	</script>
-	<script src="js/jquery.sly.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
+	<script src="<%=basePath%>js/jquery.sly.js"></script>
+	<script src="<%=basePath%>js/plugins.js"></script>
+	<script src="<%=basePath%>js/main.js"></script>
 <script type="text/javascript"
 	src="<%=basePath%>js/jquery.hoverdir.js"></script>
 <script src="<%=basePath%>js/modernizr.custom.97074.js"></script>
 
-
+<noscript>
+	<link rel="stylesheet" type="text/css"
+		href="<%=basePath%>css/noJS.css" />
+</noscript>
 
 </head>
 <body>
@@ -44,8 +47,8 @@
 					<div class="handle"></div>
 				</div>
 
-				<div class="sly"
-					data-options='{ "startAt": 1, "scrollBy": 1}'>
+					<div class="sly"
+					data-options='{"startAt": 1, "scrollBy": 1}'>
 					<div>
 						<div class="container">
 							<section>
@@ -102,5 +105,60 @@
 
 		});
 	</script>
+	<!-- end scripts -->
+	<%-- 	<div class="container">
+		<header class="clearfix"> </header>
+		<section>
+			<ul id="da-thumbs" class="da-thumbs">
+				<%
+					for(int i = 0;i<list.size();i++){
+								ScoreBoard sb = list.get(i);
+				%>
+				<li><a href="<%=basePath+"getClubMes?id="+sb.getId()%>"><img
+						src="<%=basePath+"upload/images/"+sb.getImageUrl()%>" />
+						<div>
+							<span><table>
+									<tr>
+										<td class="clubname"><%=sb.getName()%></td>
+										<td>|</td>
+										<td><%=sb.getWin() %></td>
+										<td>|</td>
+										<td><%=sb.getTie() %></td>
+										<td>|</td>
+										<td><%=sb.getFaith() %></td>
+										<td>|</td>
+										<td><%=sb.getGain() %></td>
+										<td>|</td>
+										<td><%=sb.getLose() %></td>
+										<td>|</td>
+										<td><%=sb.getGain()-sb.getLose() %></td>
+										<td>|</td>
+										<td><%=sb.getScore() %></td>
+										<td>|</td>
+										<td><%=i +1%></td>
+									</tr>
+								</table>
+							</span>
+						</div> </a></li>
+				<%
+					}
+				%>
+			</ul>
+		</section>
+	</div>
+	<footer>
+		<p>&copy; 2013 itfootballclub. All rights reserved.</p>
+	</footer>
+	<script type="text/javascript">
+		$(function() {
+
+			$(' #da-thumbs > li ').each(function() {
+				$(this).hoverdir();
+			});
+
+		});
+	</script>
+ --%>
+
 </body>
 </html>

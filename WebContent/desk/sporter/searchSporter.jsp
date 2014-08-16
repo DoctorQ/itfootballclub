@@ -14,9 +14,9 @@
 	type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <link type="text/css" rel="stylesheet"
-	href="<%=basePath%>desk/css/chainselect.css" />
-<script type="text/javascript" src="<%=basePath%>back/js/jquery-1.4.js"></script>
-<script type="text/javascript" src="<%=basePath%>back/js/chainselect.js"></script>
+	href="<%=basePath%>css/desk/chainselect.css" />
+<script type="text/javascript" src="<%=basePath%>js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="<%=basePath%>js/chainselect.js"></script>
 <style type="text/css">
 
 </style>
@@ -49,7 +49,7 @@
 				class="carloading" />
 		</p>
 		<p>
-			<a href = "" class = "sporterid"><img src="" alt="汽车图片" class="carimg" /></a>
+			<a href = "" class = "sporterid"><img src="" alt="球员图片" class="carimg" /></a>
 		</p>
 	</div>
 

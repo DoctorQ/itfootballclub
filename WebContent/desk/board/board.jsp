@@ -117,6 +117,35 @@
 										}
 									%>
 								</tbody>
+								<tbody>
+									<%
+										for(int i=0;i<sbs.size();i++){
+																ScoreBoard sb = sbs.get(i);
+									%>
+									<tr>
+										<td>
+											<table cellspacing="0" cellpadding="0" border="0">
+												<tbody>
+													<tr>
+														<td nowrap="" align="left"><%=sb.getName()%></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+										<td align="center"><%=sb.getWin()+sb.getTie()+sb.getLose()%></td>
+										<td align="center"><%=sb.getWin()%></td>
+										<td align="center"><%=sb.getTie()%></td>
+										<td align="center"><%=sb.getFaith()%></td>
+										<td align="center"><%=sb.getGain()%></td>
+										<td align="center"><%=sb.getLose()%></td>
+										<td align="center"><%=sb.getGain()-sb.getLose()%></td>
+										<td align="center"><%=sb.getScore()%></td>
+										<td align="center"><%=i+1%></td>
+									</tr>
+									<%
+										}
+									%>
+								</tbody>
 							</table>
 							<div></div>
 
@@ -128,7 +157,7 @@
 			<script>
 				window.jQuery
 						|| document
-								.write('<script src="../js/jquery-1.7.2.min.js"><\/script>')
+								.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
 			</script>
 			<script src="<%=basePath%>js/jquery.sly.js"></script>
 			<script src="<%=basePath%>js/plugins.js"></script>
