@@ -24,9 +24,6 @@ public class GoBoardServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		List<ScoreBoard> sbs = new ScoreBoardServiceImpl().getScoreBoard();
 		List<ShotBoard> shotBoards = new ShotBoardServiceImpl().getShotBoard();
-		for(ScoreBoard sb : sbs){
-			System.out.println(sb.toString());
-		}
 		if(sbs!=null&&shotBoards!=null){
 			req.setAttribute("sbs", sbs);
 			req.setAttribute("shotBoards", shotBoards);

@@ -40,10 +40,10 @@ public class AddSporterServlet extends HttpServlet {
 		String role = null;
 
 		// 图片上传路径
-		String uploadPath = req.getSession().getServletContext().getRealPath("\\") + "\\upload\\images\\";
+		String uploadPath = req.getSession().getServletContext().getRealPath(File.separator) + File.separator + "upload" + File.separator+"images" + File.separator;
 		// System.out.println("uploadPath:" + uploadPath);
 		// 图片临时上传路径
-		String tempPath = req.getSession().getServletContext().getRealPath("\\") + "\\upload\\images\\temp\\";
+		String tempPath = req.getSession().getServletContext().getRealPath(File.separator) + File.separator + "upload" + File.separator+"images" + File.separator+"temp" + File.separator;
 		// 图片网络相对路径
 		String imagePath = req.getScheme() + "://" + req.getServerName() + ":" + req.getServerPort() + req.getContextPath() + "/";
 		// 文件夹不存在就自动创建：
@@ -128,7 +128,7 @@ public class AddSporterServlet extends HttpServlet {
 						
 						File f1 = new File(uploadPath + imageName);
 						file.write(f1);
-						// System.out.println("文件名：" + destinationfileName);
+						System.out.println(uploadPath + imageName);
 					} else {
 						// System.out.println("上传文件出错，只能上传 *.jpg , *.gif");
 					}
@@ -136,7 +136,7 @@ public class AddSporterServlet extends HttpServlet {
 			}
 			// 跳转到上传成功提示页面
 		} catch (Exception e) {
-			// 可以跳转出错页面
+			e.printStackTrace();
 		}
 
 		Sporter sporter = new Sporter();
