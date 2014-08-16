@@ -21,7 +21,10 @@
 <link rel="stylesheet" href="<%=basePath%>css/desk/main-stylesheet.css" />
 <link rel="stylesheet" href="<%=basePath%>css/desk/stylesly.css">
 <link rel="stylesheet" href="<%=basePath%>css/desk/sportermes.css">
-
+<script src="<%=basePath%>js/jquery-1.7.2.min.js"></script>
+<script src="<%=basePath%>js/jquery.sly.js"></script>
+<script src="<%=basePath%>js/plugins.js"></script>
+<script src="<%=basePath%>js/main.js"></script>
 <script type="text/javascript" src="<%=basePath%>js/jquery.hoverdir.js"></script>
 <script src="<%=basePath%>js/modernizr.custom.97074.js"></script>
 <script src="<%=basePath%>js/jquery.heatcolor.0.0.1.js"
@@ -88,7 +91,7 @@
 								<tbody>
 									<%
 										for (int i = 0; i < sbs.size(); i++) {
-																									ScoreBoard sb = sbs.get(i);
+											ScoreBoard sb = sbs.get(i);
 									%>
 									<tr>
 										<td>
@@ -113,24 +116,14 @@
 									<%
 										}
 									%>
-								</tbody>
-								
-
+								</table>
 						</div>
+						<div>
 					</div>
 				</div>
 			</div>
-			<script src="<%=basePath%>js/jquery-1.7.2.min.js"></script>
-			<script src="<%=basePath%>js/jquery.sly.js"></script>
-			<script src="<%=basePath%>js/plugins.js"></script>
-			<script src="<%=basePath%>js/main.js"></script>
-			<script type="text/javascript">
-				$(function() {
-					$(' #da-thumbs > li ').each(function() {
-						$(this).hoverdir();
-					});
-
-				});
-			</script>
+		</div>
+		<!--end:#vertical-->
+	</div>
 </body>
 </html>
