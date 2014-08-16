@@ -26,7 +26,7 @@
 				<div class="scrollbar">
 					<div class="handle"></div>
 				</div>
-				<div class="sly" data-options='{ "startAt": 1, "scrollBy": 1}'>
+				<div class="sly" data-options='{ "startAt": 1, "scrollBy": 30}'>
 					<div>
 						<article>
 							<header>

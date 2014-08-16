@@ -46,7 +46,7 @@
 				</div>
 
 				<div class="sly"
-					data-options='{"startAt": 1, "scrollBy": 1}'>
+					data-options='{"startAt": 1, "scrollBy": 30}'>
 					<div>
 						<div class="container">
 							<section>
