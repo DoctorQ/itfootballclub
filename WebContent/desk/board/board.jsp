@@ -46,9 +46,6 @@
 		sortwithcolor(8);
 	});
 </script>
-<noscript>
-	<link rel="stylesheet" type="text/css" href="<%=basePath%>css/noJS.css" />
-</noscript>
 </head>
 <body>
 	<div id="sections" class="container1">
@@ -61,7 +58,7 @@
 				<div class="sly" data-options='{ "startAt": 1, "scrollBy": 1}'>
 					<div>
 						<div>
-							<h2>积分榜2</h2>
+							<h2>积分榜</h2>
 							<table width="770" cellspacing="1" cellpadding="2" border="0"
 								align="center" id="ex1">
 								<thead>
@@ -90,8 +87,8 @@
 								</thead>
 								<tbody>
 									<%
-										for(int i=0;i<sbs.size();i++){
-																ScoreBoard sb = sbs.get(i);
+										for (int i = 0; i < sbs.size(); i++) {
+																									ScoreBoard sb = sbs.get(i);
 									%>
 									<tr>
 										<td>
@@ -103,62 +100,27 @@
 												</tbody>
 											</table>
 										</td>
-										<td align="center"><%=sb.getWin()+sb.getTie()+sb.getLose()%></td>
+										<td align="center"><%=sb.getWin() + sb.getTie() + sb.getLose()%></td>
 										<td align="center"><%=sb.getWin()%></td>
 										<td align="center"><%=sb.getTie()%></td>
 										<td align="center"><%=sb.getFaith()%></td>
 										<td align="center"><%=sb.getGain()%></td>
 										<td align="center"><%=sb.getLose()%></td>
-										<td align="center"><%=sb.getGain()-sb.getLose()%></td>
+										<td align="center"><%=sb.getGain() - sb.getLose()%></td>
 										<td align="center"><%=sb.getScore()%></td>
-										<td align="center"><%=i+1%></td>
+										<td align="center"><%=i + 1%></td>
 									</tr>
 									<%
 										}
 									%>
 								</tbody>
-								<tbody>
-									<%
-										for(int i=0;i<sbs.size();i++){
-																ScoreBoard sb = sbs.get(i);
-									%>
-									<tr>
-										<td>
-											<table cellspacing="0" cellpadding="0" border="0">
-												<tbody>
-													<tr>
-														<td nowrap="" align="left"><%=sb.getName()%></td>
-													</tr>
-												</tbody>
-											</table>
-										</td>
-										<td align="center"><%=sb.getWin()+sb.getTie()+sb.getLose()%></td>
-										<td align="center"><%=sb.getWin()%></td>
-										<td align="center"><%=sb.getTie()%></td>
-										<td align="center"><%=sb.getFaith()%></td>
-										<td align="center"><%=sb.getGain()%></td>
-										<td align="center"><%=sb.getLose()%></td>
-										<td align="center"><%=sb.getGain()-sb.getLose()%></td>
-										<td align="center"><%=sb.getScore()%></td>
-										<td align="center"><%=i+1%></td>
-									</tr>
-									<%
-										}
-									%>
-								</tbody>
-							</table>
-							<div></div>
+								
 
 						</div>
 					</div>
 				</div>
-				<!--end:#vertical-->
 			</div>
-			<script>
-				window.jQuery
-						|| document
-								.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
-			</script>
+			<script src="<%=basePath%>js/jquery-1.7.2.min.js"></script>
 			<script src="<%=basePath%>js/jquery.sly.js"></script>
 			<script src="<%=basePath%>js/plugins.js"></script>
 			<script src="<%=basePath%>js/main.js"></script>

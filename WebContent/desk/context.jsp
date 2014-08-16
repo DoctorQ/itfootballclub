@@ -14,11 +14,7 @@
 <meta name="description" content="football,itfootball,programmer.">
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="<%=basePath%>css/desk/main.css">
-<script>
-	window.jQuery
-			|| document
-					.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
-</script>
+<script src="<%=basePath%>js/jquery-1.7.2.min.js"></script>
 <script src="<%=basePath%>js/jquery.sly.js"></script>
 <script src="<%=basePath%>js/plugins.js"></script>
 <script src="<%=basePath%>js/main.js"></script>

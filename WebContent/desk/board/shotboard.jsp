@@ -23,9 +23,10 @@
 
 <link rel="stylesheet" href="<%=basePath%>css/desk/stylesly.css">
 <link rel="stylesheet" href="<%=basePath%>css/desk/sportermes.css">
-<script src="js/jquery.sly.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+<script src="<%=basePath%>js/jquery-1.7.2.min.js"></script>
+<script src="<%=basePath%>js/jquery.sly.js"></script>
+<script src="<%=basePath%>js/plugins.js"></script>
+<script src="<%=basePath%>js/main.js"></script>
 <script type="text/javascript"
 	src="<%=basePath%>js/jquery.hoverdir.js"></script>
 <script src="<%=basePath%>js/modernizr.custom.97074.js"></script>
