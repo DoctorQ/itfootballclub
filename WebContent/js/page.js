@@ -24,7 +24,7 @@
 	);
 	
 	$('#slider').nivoSlider({directionNav:false});
-/*	
+	
 	try
 	{
 		var coordinate=new google.maps.LatLng(31.315624890791,121.601920723932);
@@ -38,4 +38,3 @@
 		var googleMap=new google.maps.Map(document.getElementById('map'),mapOptions);
 	}
 	catch(e) {}
-	*/
