@@ -103,7 +103,7 @@
 												</tbody>
 											</table>
 										</td>
-										<td align="center"><%=sb.getWin() + sb.getTie() + sb.getLose()%></td>
+										<td align="center"><%=sb.getWin() + sb.getTie() + sb.getFaith()%></td>
 										<td align="center"><%=sb.getWin()%></td>
 										<td align="center"><%=sb.getTie()%></td>
 										<td align="center"><%=sb.getFaith()%></td>
