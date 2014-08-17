@@ -1,6 +1,6 @@
-drop database if exists aodci;
-create database aodci CHARACTER SET 'utf8' COLLATE 'utf8_general_ci';
-use aodci;
+drop database if exists qianwxy;
+create database qianwxy CHARACTER SET 'utf8' COLLATE 'utf8_general_ci';
+use qianwxy;
 #创建积分表a_scoreboard
 drop table if exists a_scoreboard;
 create table a_scoreboard
@@ -68,6 +68,7 @@ create table a_shotboard
   goals int,
   cc varchar(80) unique
 )engine=innodb default charset=utf8 auto_increment=1;
+/*
 #tigger
 delimiter $
 CREATE TRIGGER trigger_scoreboard_club
@@ -88,13 +89,13 @@ begin
 end;
 $
 delimiter ;
-/*添加两个字段->club
+添加两个字段->club
 alter table a_club add column imgurl  varchar(100) after builder;
 alter table a_club add column location varchar(40);
 
 //club的cname添加unque約束
 alter table a_club add constraint uc_cname unique cname;
-*/
+
  
 #给a_club表添加数据
 insert into a_club values (null,'Manchester United','1878-01-01','Old Trafford','David Moyes',null,'images/manchesterunited.png','Manchester City,England');
@@ -120,6 +121,30 @@ insert into a_club values (null,'Hull City Association','1904-00-00','Kingston C
 insert into a_club values (null,'Queens Park Rangers','1882-00-00','Loftus Road','Henry Redknapp',null,'images/queensparkrangers.png','Hammersmith,England');
 insert into a_club values (null,'Leicester City','1884-00-00','King Power Stadium','Nigel Graham Pearson',null,'images/leicestercity.png','Leicester City,England');
 insert into a_club values (null,'Burnley','1882-00-00','Turf Moor','Sean Dyche',null,'images/burnley.png','Burnley,England');
+#向积分表中擦人数据
+insert into a_scoreboard values (null,'Manchester United',0,0,0,0,0,0,'images/manchesterunited.png');
+insert into a_scoreboard values (null,'Chelsea',0,0,0,0,0,0,'images/chelsea.png');
+insert into a_scoreboard values (null,'Arsenal',0,0,0,0,0,0,'images/arsenal.png');
+insert into a_scoreboard values (null,'Liverpool',0,0,0,0,0,0,'images/liverpool.png');
+insert into a_scoreboard values (null,'Manchester City',,0,0,0,0,0,0,'images/mcfc.png');
+insert into a_scoreboard values (null,'Tottenham Hotspur',0,0,0,0,0,0,'images/tottenhamhotspur.png');
+insert into a_scoreboard values (null,'Aston Villa',0,0,0,0,0,0,'images/avfc.png');
+insert into a_scoreboard values (null,'Everton',0,0,0,0,0,0,'images/everton.png');
+#insert into a_scoreboard values (null,'Cardiff City',0,0,0,0,0,0,'images/cardif.png');
+insert into a_scoreboard values (null,'Crystal Palace',0,0,0,0,0,0,'images/crystalpalace.png');
+#insert into a_scoreboard values (null,'Fulham',0,0,0,0,0,0,'images/ffc.png');
+insert into a_scoreboard values (null,'Sunderland Association',0,0,0,0,0,0,'images/sunderland.png');
+insert into a_scoreboard values (null,'Southampton',0,0,0,0,0,0,'images/southampton.png');
+insert into a_scoreboard values (null,'Newcastle United',0,0,0,0,0,0,'images/newcastleunited.png');
+insert into a_scoreboard values (null,'West Ham United',0,0,0,0,0,0,'images/westhamunited.png');
+insert into a_scoreboard values (null,'Stoke City',0,0,0,0,0,0,'images/stokecity.png');
+insert into a_scoreboard values (null,'West Bromwich Albion',0,0,0,0,0,0,'images/westbromwich.png');
+insert into a_scoreboard values (null,'Swansea City',0,0,0,0,0,0,'images/swansea.png');
+#insert into a_scoreboard values (null,'Norwich City',0,0,0,0,0,0,'images/norwich.png');
+insert into a_scoreboard values (null,'Hull City Association',0,0,0,0,0,0,'images/hullcity.png');
+insert into a_scoreboard values (null,'Queens Park Rangers',0,0,0,0,0,0,'images/queensparkrangers.png');
+insert into a_scoreboard values (null,'Leicester City',0,0,0,0,0,0,'images/leicestercity.png');
+insert into a_scoreboard values (null,'Burnley',0,0,0,0,0,0,'images/burnley.png');
 #更新字符集
 #ALTER DATABASE `aodci` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 #show variables like "%char%";
@@ -129,4 +154,4 @@ insert into a_club values (null,'Burnley','1882-00-00','Turf Moor','Sean Dyche',
 #update a_scoreboard set win = win+1 where id = 2;
 #insert into a_shotboard values (null,'qian','hui',1,'qian_hui') ON DUPLICATE KEY UPDATE goals=goals+1;
 
-
+*/
