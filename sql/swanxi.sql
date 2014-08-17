@@ -1,1 +1,0 @@
-insert into a_sporter(id,name,cname,born,country,sendclub,band,imgname)
