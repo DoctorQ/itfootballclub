@@ -116,7 +116,9 @@ body {
 					       }
 				
 				%>
-			</select></td></tr><tr> <td><input type="submit" value="修改"> </td><td><input
+			</select></td></tr><tr> 
+			<tr><td>选择图片：</td><td><input type="file" name="upfile" value="<%=sporter.getImage() %>"></td></tr><tr>
+			<td><input type="submit" value="修改"> </td><td><input
 				type="reset" value="重置"></td></tr>
 				</table>
 		</form>

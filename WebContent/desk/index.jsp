@@ -14,7 +14,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>主界面</title>
+<title>我爱踢球</title>
 
 </head>
 <frameset rows="15%,80%,5%" frameborder="NO" border="0" framespacing="0">
