@@ -68,7 +68,7 @@ public class AddGameResultServlet extends HttpServlet {
 			pClub.setTie(1);
 			cClub.setTie(1);
 			pClub.setScore(1);
-			pClub.setScore(1);
+			cClub.setScore(1);
 		}else{
 			cClub.setWin(1);
 			pClub.setFaith(1);

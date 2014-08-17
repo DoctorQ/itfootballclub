@@ -48,7 +48,7 @@ body {
 			<tr><td>球衣号码：</td><td><input type="text" name="sporternumber"></td></tr>
 			<tr><td>队中角色：</td><td><select name="sporterrole">
 				<option value="forward">前锋</option>
-				<option value="midfielder">中锋</option>
+				<option value="midfielder">中场</option>
 				<option value="back">后卫</option>
 			</select></td></tr>
 			<tr><td>出生日期：</td><td><input class="Wdate" type="text" name="sporterborn"

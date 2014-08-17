@@ -54,7 +54,7 @@
 								<td>创建时间</td><td><%=club.getcTime() %></td></tr>
 								<tr><td>球队主场</td><td><%=club.getHomeField() %></td></tr>
 								<tr><td>主教练</td><td><%=club.getCoach() %></td></tr>
-								<tr><td>创建者</td><td><%=club.getBuilder() %></td></tr>
+								<tr><td>创建者</td><td><%=club.getBuilder()==null?"unknow": club.getBuilder()%></td></tr>
 								<tr><td>城市</td><td><%=club.getLocation() %></td></tr>
 								</table>
 								</header>
