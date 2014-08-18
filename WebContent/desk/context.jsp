@@ -58,7 +58,7 @@
 								</header>
 								<p class="next-to-aside">利物浦</p>
 								<figure>
-									<img src="../images/desk/home/liverpool.bmp"
+									<img src="../images/desk/home/liverpool.png"
 										alt="Photograph of Stonehenge" width="500" height="300">
 									<figcaption>Liverpool</figcaption>
 								</figure>
