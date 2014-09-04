@@ -32,35 +32,35 @@
 							<header>
 								<h1>一日言</h1>
 							</header>
-							<p>生命那么短暂,为什么不选择做自己喜欢做的事.</p>
+							<p>位卑,不敢忘忧国.</p>
 							<section>
 								<header>
 									<h1></h1>
 								</header>
-								<p>Life is so short, why not do what you like to do.</p>
+								<p>Humble, can't forget to worry about my country.</p>
 								<hr class="line"></hr>
 							</section>
 							<section>
 								<header>
-									<h1>本月球员</h1>
+									<h1>八月球员</h1>
 								</header>
-								<p class="next-to-aside">杰拉德</p>
+								<p class="next-to-aside">迭戈.科斯塔</p>
 								<figure>
-									<img src="../images/desk/home/gerrard.jpg"
+									<img src="../images/desk/home/costa.jpg"
 										alt="Photograph of Stonehenge" width="500" height="300">
-									<figcaption>Steven Gerrard</figcaption>
+									<figcaption>Diego Costa</figcaption>
 								</figure>
 								<hr class="line"></hr>
 							</section>
 							<section>
 								<header>
-									<h1>本月俱乐部</h1>
+									<h1>八月俱乐部</h1>
 								</header>
-								<p class="next-to-aside">利物浦</p>
+								<p class="next-to-aside">切尔西</p>
 								<figure>
-									<img src="../images/desk/home/liverpool.png"
+									<img src="../images/desk/home/chelsea.jpg"
 										alt="Photograph of Stonehenge" width="500" height="300">
-									<figcaption>Liverpool</figcaption>
+									<figcaption>Chelsea</figcaption>
 								</figure>
 							</section>
 						</article>
