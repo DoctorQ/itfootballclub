@@ -14,7 +14,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>我爱踢球</title>
+<title>爱踢球吧|ITFOOTBALLCLUB|itfootballclub｜我爱踢球｜英超｜球迷网站｜程序员</title>
 
 </head>
 <frameset rows="15%,80%,5%" frameborder="NO" border="0" framespacing="0">
